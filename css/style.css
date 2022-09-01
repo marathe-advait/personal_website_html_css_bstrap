@@ -33,6 +33,11 @@ html, body
     background-color: #e4f9f5;
 }
 
+.btn
+{
+    padding: 1%;
+}
+
 #home-2
 {
     margin: 0;
