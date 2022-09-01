@@ -5,165 +5,195 @@
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+    <!-- Internal CSS -->
     <link rel = "stylesheet" href = "css/style.css">
+
+    <!-- Bootstrap -->
     <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin = "anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"> </script>
+    
+    <!-- Google Fonts -->
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
     <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel = "stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src = "https://kit.fontawesome.com/f2806a67fa.js" crossorigin = "anonymous"></script>
     <title>Advait's Blog</title>
+
+    <!-- Favicon Icon -->
+    <link rel = "shortcut icon" href = "favicon.ico" type = "image/x-icon">
 </head>
 
 <body>
-    <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class = "navbar-brand" href = "#">Advait's Blog</a>
-        <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbar-toggler" aria-controls = "navbar-toggler" aria-expanded = "false" aria-label = "Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class = "collapse navbar-collapse" id = "navbar-toggler">
-            <ul class="navbar-nav ms-auto">
-                <li class = "nav-item">
-                    <a class = "nav-link" href = "#home-1">Home</a>
-                </li>
-                <li class = "nav-item">
-                    <a class = "nav-link" href = "#featured">Featured</a>
-                </li>
-                <li class = "nav-item">
-                    <a class = "nav-link" href = "#pricing">Pricing</a>
-                </li>
-                <li class = "nav-item">
-                    <a class = "nav-link" href = "#contact-us">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <div id = "home-1">
-        <div class = "row">
-            <div class = "col-lg-7 col-md-7 col-sm-12">
-                <h1>Advait's Blog Now In Whole New Avatar</h1>
-                <p>A judgemental free space to express your thoughts</p>
-                <a class = "btn btn-dark" href = "#contact-us" role = "button"> Reach Out to Us </a>
-                <a class = "btn btn-outline-dark" href = "#pricing" role = "button"> Check out our plans </a>
-            </div>
-            <div class = "col-lg-5 col-md-5 col-sm-12">
-                <img src = "images/blog-colour.png" alt = "Brand New Logo" style = "height: 360px; width: 360px;">
-            </div>
-        </div>
-    </div>
+    <div class = "container-fluid">
 
-    <div id = "home-2">
-        <h2>With new revamped website and feel</h2>
-        <p>Dynamic look which inspires to write even more.</p>
-
-        <h2>Amazing new content lined up</h2>
-        <p>As more and more people join, more and more exciting stories to be told.</p>
-
-        <h2>New: Now also get your astrology charts done by our very own founder</h2>
-        <p>Thanks to his new found passion, you can now get your birth charts read for free<sup>*</sup>.</p>
-    </div>
-
-    <div id = "featured">
-        <h2>Featured</h2>
-        <div class = "row">
-            <div class = "col-lg-3 col-md-6 col-sm-12">
-                <img src = "images/analog-digital-circuit.png" alt = "User ABC" class = "featured-icon">
+        <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class = "navbar-brand" href = "#">Advait's Blog</a>
+            <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbar-toggler" aria-controls = "navbar-toggler" aria-expanded = "false" aria-label = "Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id = "navbar-toggler">
+                <ul class="navbar-nav ms-auto">
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#home-1">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#featured">Featured</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#pricing">Pricing</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#contact-us">Contact Us</a>
+                    </li>
+                </ul>
             </div>
-            <div class = "col-lg-3 col-md-6 col-sm-12">
-                <img src = "images/c-programming.png" alt = "User XYZ" class = "featured-icon">
-            </div>
-            <div class = "col-lg-3 col-md-6 col-sm-12">
-                <img src = "images/internet-of-things.png" alt = "User JKL" class = "featured-icon">
-            </div>
-            <div class = "col-lg-3 col-md-6 col-sm-12">
-                <img src = "images/java.png" alt = "User PQR" class = "featured-icon">
+        </nav>
+    
+        <div id = "home-1">
+            <div class = "row">
+                <div class = "col-lg-8 col-md-8 col-sm-12">
+                    <h1>Advait's Blog Now In Whole New Avatar</h1>
+                    <p>A judgemental free space to express your thoughts</p>
+                    <a class = "btn btn-dark" href = "#contact-us" role = "button"><i class = "fa-solid fa-user"></i> Reach Out to Us </i></a>
+                    <a class = "btn btn-outline-dark" href = "#pricing" role = "button"><i class = "fa-solid fa-tags"></i> Check out our plans </a>
+                </div>
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <img src = "images/blog-colour.png" alt = "Brand New Logo" style = "height: 100%; width: 75%; padding: 5%;">
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id = "pricing">
-        <h2>Pricing</h2>
-        <p>Prices that are affordable for just everyone.</p>
+        <div id = "home-2">
+            <div class = "row">
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <i class = "new-icon fa-solid fa-globe fa-4x"></i>
+                    <h2>Revamped website and feel</h2>
+                    <p>Dynamic look which inspires to write even more.</p>
+                </div>
+    
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <i class = "new-icon fa-solid fa-book fa-4x"></i>
+                    <h2>Amazing new content</h2>
+                    <p>As more and more people join, more and more exciting stories to be told.</p>
+                </div>
 
-        <div class = row>
-            <div class = "col-lg-3 col-md-6 col-sm-12" style = "border-right: solid 5px #40514e;">
-                <h3>Blogger Lite</h3>
-                <h5>Free</h5>
-                <p>Upto 3 articles per month.<br>
-                One free reading every three months.</p>
-            </div>
-            <div class = "col-lg-3 col-md-6 col-sm-12" style = "border-right: solid 5px #40514e;">
-                <h3>Blogger Pro</h3>
-                <h5>Rs. 100 per month</h5>
-                <p>Upto 10 articles per month.<br>
-                One free reading every month.</p>
-            </div>
-            <div class = "col-lg-3 col-md-6 col-sm-12" style = "border-right: solid 5px #40514e;">
-                <h3>Blogger Ultra</h3>
-                <h5>Rs. 300 per month</h5>
-                <p>Upto 20 articles per month.<br>
-                Three free readings every month.</p>
-            </div>
-            <div class = "col-lg-3 col-md-6 col-sm-12" style = "border-right: solid 5px #40514e;">
-                <h3>Blogger Ultra Max</h3>
-                <h5>Rs. 600 per month</h5>
-                <p>Upto 35 articles per month.<br>
-                Five free readings every month. <br>
-                <strong>Exclusive perks to customise the website.</strong></p>
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <i class = "new-icon fa-solid fa-star-half-stroke fa-4x"></i>
+                    <h2>New: Astro Charts</h2>
+                    <p>Thanks to his new found passion, you can now get your birth charts read for free<sup>*</sup>.</p>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div id = "contact-us">
-        <div class = "row">
-            <div class = "col-lg-7 col-md-7 col-sm-12">
-                <h3>Contact Us</h3>
-                <h6>Advait's Blog Private Limited</h6>
-                <h6>2305, C7, Prateek Grand City,</h6>
-                <h6>Siddharth Vihar, Ghaziabad.</h6>
-                <h6>Uttar Pradesh - 201009</h6>
-            </div>
-            <div class = "col-lg-5 col-md-5 col-sm-12">
-                <h3>Subscribe</h3>
-                <form action = "mailto:ady2112mar@gmail.com" method = "post" enctype = "text/plain" style = "text-align: justify;">
-                    <table>
-                        <tr>
-                            <td> <label>Name</label> </td>
-                            <td> <input type = "text" name = "yourName"> </td>
-                        </tr>
-                        <tr>
-                            <td> <label>Email</label> </td>
-                            <td> <input type = "email" name = "yourEmail"> </td>
-                        </tr>
-                        <tr>
-                            <td> <label>DOB</label> </td>
-                            <td> <input type = "date" name = "yourDob"> </td>
-                        </tr>
-                        <tr>
-                            <td> <label>Do you accept the terms and conditions?</label> </td>
-                            <td style = "text-align: center;"> <input type = "checkbox" name = "yourConsent"> </td>
-                        </tr>
-                        <tr>
-                            <td> <input type = "submit" class = "button"> </td>
-                        </tr>
-                    </table>
-                </form>
+    
+        <div id = "featured">
+            <h2>Featured</h2>
+            <div class = "row">
+                <div class = "col-lg-3 col-md-6 col-sm-12">
+                    <img src = "images/analog-digital-circuit.png" alt = "User ABC" class = "featured-icon">
+                </div>
+                <div class = "col-lg-3 col-md-6 col-sm-12">
+                    <img src = "images/c-programming.png" alt = "User XYZ" class = "featured-icon">
+                </div>
+                <div class = "col-lg-3 col-md-6 col-sm-12">
+                    <img src = "images/internet-of-things.png" alt = "User JKL" class = "featured-icon">
+                </div>
+                <div class = "col-lg-3 col-md-6 col-sm-12">
+                    <img src = "images/java.png" alt = "User PQR" class = "featured-icon">
+                </div>
             </div>
         </div>
-    </div>
-
-    <div id = "footer">
-        <div class = "row">
-            <div class = "col-lg-4 col-md-4 col-sm-12">
-                <a href = "https://www.facebook.com/advaitmarathe2112/"><img src = "images/facebook_icon.png" alt = "Facebook" style = "height: 50px; width: 50px;"></a>
-            </div>
-            <div class = "col-lg-4 col-md-4 col-sm-12">
-                <a href = "https://www.instagram.com/advait_marathe/"><img src = "images/instagram_icon.png" alt = "Instagram" style = "height: 50px; width: 50px;"></a>
-            </div>
-            <div class = "col-lg-4 col-md-4 col-sm-12">
-                <a href = "https://www.linkedin.com/in/advait-marathe-33a29918a/"><img src = "images/linkedin_icon.png" alt = "LinkedIn" style = "height: 50px; width: 50px;"></a>
+    
+        <div id = "pricing">
+            <h2>Pricing</h2>
+            <p>Prices that are affordable for just everyone.</p>
+    
+            <div class = row>
+                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #e4f9f5;">
+                    <h3>Blogger Lite</h3>
+                    <h5>Free</h5>
+                    <p>Publish upto 3 articles per month.<br>
+                    One free reading every three months.</p>
+                </div>
+                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #82e6e8;">
+                    <h3>Blogger Pro</h3>
+                    <h5>Rs. 100 per month</h5>
+                    <p>Publish upto 10 articles per month.<br>
+                    One free reading every month.</p>
+                </div>
+                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #30e3ca;">
+                    <h3>Blogger Ultra</h3>
+                    <h5>Rs. 300 per month</h5>
+                    <p>Publish upto 20 articles per month.<br>
+                    Three free readings every month. <br>
+                    <strong>Ad-free experience.</strong></p>
+                </div>
+                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #20a6bc;">
+                    <h3>Blogger Ultra Max</h3>
+                    <h5>Rs. 600 per month</h5>
+                    <p>Publish upto 35 articles per month.<br>
+                    Five free readings every month. <br>
+                    <strong>Ad-free experience.</strong> <br>
+                    <strong>Exclusive perks to customise the website.</strong></p>
+                </div>
             </div>
         </div>
+    
+        <div id = "contact-us">
+            <div class = "row">
+                <div class = "col-lg-6 col-md-6 col-sm-12">
+                    <h3 style = "padding-bottom: 5%;">Contact Us</h3>
+                    <h6>Advait's Blog Private Limited</h6>
+                    <h6>2305, C7, Prateek Grand City,</h6>
+                    <h6>Siddharth Vihar, Ghaziabad.</h6>
+                    <h6>Uttar Pradesh - 201009</h6>
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-12">
+                    <h3>Subscribe</h3>
+                    <form action = "mailto:ady2112mar@gmail.com" method = "post" enctype = "text/plain" style = "text-align: justify;">
+                        <table cellpadding = "10">
+                            <tr>
+                                <td> <label>Name</label> </td>
+                                <td> <input type = "text" name = "yourName"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label>Email</label> </td>
+                                <td> <input type = "email" name = "yourEmail"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label>DOB</label> </td>
+                                <td> <input type = "date" name = "yourDob"> </td>
+                            </tr>
+                            <tr>
+                                <td> <label>Do you accept the terms and conditions?</label> </td>
+                                <td style = "text-align: center;"> <input type = "checkbox" name = "yourConsent"> </td>
+                            </tr>
+                            <tr>
+                                <td> <input type = "submit" class = "button"> </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <div id = "footer">
+            <div class = "row">
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <a href = "https://www.facebook.com/advaitmarathe2112/"><img src = "images/facebook_icon.png" alt = "Facebook" class = "social-icon"></a>
+                </div>
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <a href = "https://www.instagram.com/advait_marathe/"><img src = "images/instagram_icon.png" alt = "Instagram" class = "social-icon"></a>
+                </div>
+                <div class = "col-lg-4 col-md-4 col-sm-12">
+                    <a href = "https://www.linkedin.com/in/advait-marathe-33a29918a/"><img src = "images/linkedin_icon.png" alt = "LinkedIn" class = "social-icon"></a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </body>

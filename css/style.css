@@ -4,43 +4,48 @@ html, body
     line-height: 1.5;
     text-align: center;
     vertical-align: middle;
+    margin: none;
+    padding: none;
+}
+
+.container-fluid
+{
+    margin: none;
+    padding: none;
     width: 100%;
+}
+
+.navbar-brand
+{
+    font-size: 1.5rem;
+    padding-left: 2%;
 }
 
 .nav-item
 {
     margin: 0;
-    border-right: solid;
-    border-right-width: 3px;
-    border-right-color: #e4f9f5;
+    padding: 10px;
 }
 
 #home-1
 {
-    margin: 0;
-    height: 65%;
-    padding: 5% 0 5% 0;
+    height: 75%;
     background-color: #e4f9f5;
-}
-
-p
-{
-    margin: 0;
-    padding: 2%;
 }
 
 #home-2
 {
     margin: 0;
     height: 65%;
-    padding: 5% 0 5% 0;
+    width: 100%;
+    padding: 5%;
 }
 
 h1
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    padding: 10% 0 0 0;
+    font-size: 2.5rem;
+    padding: 10% 0 2% 0;
 }
 
 h2
@@ -55,33 +60,40 @@ h3
     padding: 3% 0 1.5% 0;
 }
 
+.new-icon
+{
+    height: 40%;
+    width: 40%;
+    padding: 5%;
+    color: teal;
+}
+
 #featured
 {
     margin: 0;
-    height: 40%;
-    margin-top: 5%;
+    height: 45%;
     padding-bottom: 5%;
     background-color: #82e6e8;
 }
 
 .featured-icon
 {
-    height: 175px;
-    width: 175px;
+    height: 100%;
+    width: 50%;
+    padding: 5%;
 }
 
 #pricing
 {
-    margin-top: 5%;
-    height: 15%;
-    padding-bottom: 5%;
+    height: 26%;
+    width: 100%;
+    padding: 0 1% 4% 1%;
 }
 
 #contact-us
 {
-    margin-top: 5%;
-    height: 35%;
-    padding-bottom: 5%;
+    height: 37%;
+    padding-bottom: 3%;
     background-color: #30e3ca;
 }
 
@@ -90,4 +102,11 @@ h3
     padding: 2.5% 0 2.5% 0;
     height: 10%;
     background-color: #e4f9f5;
+}
+
+.social-icon
+{
+    height: 100%;
+    width: 10%;
+    padding: 2%;
 }
