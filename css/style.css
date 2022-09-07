@@ -34,19 +34,6 @@ html, body
     background-color: #e4f9f5;
 }
 
-@media (max-width: 500px)
-{
-    .btn.btn-dark.home-button
-    {
-        margin: 2.5%;
-    }
-
-    .btn.btn-outline-dark.btn.home-button
-    {
-        margin: 2.5%;
-    }
-}
-
 .btn
 {
     padding: 2%;
@@ -135,4 +122,22 @@ h3
 .col-lg-3.col-md-6.col-sm-12.card-col
 {
     padding: 1%;
+}
+
+@media (max-width: 500px)
+{
+    .btn.btn-dark.home-button
+    {
+        margin: 2.5%;
+    }
+
+    .btn.btn-outline-dark.btn.home-button
+    {
+        margin: 2.5%;
+    }
+
+    #featured
+    {
+        height: 200px;
+    }
 }
