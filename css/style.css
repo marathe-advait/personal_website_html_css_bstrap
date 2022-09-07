@@ -33,6 +33,19 @@ html, body
     background-color: #e4f9f5;
 }
 
+@media (max-width: 500px)
+{
+    .btn.btn-dark.home-button
+    {
+        margin: 2.5%;
+    }
+
+    .btn.btn-outline-dark.btn.home-button
+    {
+        margin: 2.5%;
+    }
+}
+
 .btn
 {
     padding: 1%;
