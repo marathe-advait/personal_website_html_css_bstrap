@@ -1,3 +1,5 @@
+<!-- Ctrl + / makes a block commented -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,10 +46,13 @@
                         <a class = "nav-link" href = "#featured">Featured</a>
                     </li>
                     <li class = "nav-item">
-                        <a class = "nav-link" href = "#pricing">Pricing</a>
+                        <a class = "nav-link" href = "pricing.html">Pricing</a>
                     </li>
                     <li class = "nav-item">
                         <a class = "nav-link" href = "#contact-us">Contact Us</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "login.html">Login or Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -59,7 +64,7 @@
                     <h1>Advait's Blog Now In Whole New Avatar</h1>
                     <p>A judgemental free space to express your thoughts</p>
                     <a class = "btn btn-dark" href = "#contact-us" role = "button"><i class = "fa-solid fa-user"></i> Reach Out to Us </i></a>
-                    <a class = "btn btn-outline-dark" href = "#pricing" role = "button"><i class = "fa-solid fa-tags"></i> Check out our plans </a>
+                    <a class = "btn btn-outline-dark" href = "pricing.html" role = "button"><i class = "fa-solid fa-tags"></i> Check out our plans </a>
                 </div>
                 <div class = "col-lg-4 col-md-4 col-sm-12">
                     <img src = "images/blog-colour.png" alt = "Brand New Logo" style = "height: 100%; width: 75%; padding: 5%;">
@@ -91,54 +96,51 @@
     
         <div id = "featured">
             <h2>Featured</h2>
-            <div class = "row">
-                <div class = "col-lg-3 col-md-6 col-sm-12">
-                    <img src = "images/analog-digital-circuit.png" alt = "User ABC" class = "featured-icon">
+            <div id = "carouselExampleCaptions" class = "carousel slide" data-bs-ride = "carousel" data-interval = "100">
+                <div class = "carousel-indicators">
+                    <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to = "0" class = "active" aria-current = "true" aria-label = "Slide 1"></button>
+                    <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to = "1" aria-label = "Slide 2"></button>
+                    <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to = "2" aria-label = "Slide 3"></button>
+                    <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to = "3" aria-label = "Slide 4"></button>
                 </div>
-                <div class = "col-lg-3 col-md-6 col-sm-12">
-                    <img src = "images/c-programming.png" alt = "User XYZ" class = "featured-icon">
+                <div class = "carousel-inner">
+                    <div class = "carousel-item active">
+                        <img src = "images/analog-digital-circuit.png" class = "featured-icon" alt = "Blog ABC">
+                        <div class = "carousel-caption d-none d-md-block">
+                            <h5>Blog ABC</h5>
+                            <p>Perfect blog for all the peeps out there excited to learn gardening.</p>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <img src = "images/c-programming.png" class = "featured-icon" alt = "Blog DEF">
+                        <div class = "carousel-caption d-none d-md-block">
+                            <h5>Blog DEF</h5>
+                            <p>Aliens - yay or nay, I am sure this blog will help to shape your opinion.</p>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <img src = "images/deep-learning.png" class = "featured-icon" alt = "Blog GHI">
+                        <div class = "carousel-caption d-none d-md-block">
+                            <h5>Blog GHI</h5>
+                            <p>From Afreen Afreen to Pasoori, how is Coke Studio ruling the music charts!!</p>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <img src = "images/java.png" class = "featured-icon" alt = "Blog JKL">
+                        <div class = "carousel-caption d-none d-md-block">
+                            <h5>Blog JKL</h5>
+                            <p>Get your <strong>Rust</strong>ic programming skills a grease..</p>
+                        </div>
+                    </div>
                 </div>
-                <div class = "col-lg-3 col-md-6 col-sm-12">
-                    <img src = "images/internet-of-things.png" alt = "User JKL" class = "featured-icon">
-                </div>
-                <div class = "col-lg-3 col-md-6 col-sm-12">
-                    <img src = "images/java.png" alt = "User PQR" class = "featured-icon">
-                </div>
-            </div>
-        </div>
-    
-        <div id = "pricing">
-            <h2>Pricing</h2>
-            <p>Prices that are affordable for just everyone.</p>
-    
-            <div class = row>
-                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #e4f9f5;">
-                    <h3>Blogger Lite</h3>
-                    <h5>Free</h5>
-                    <p>Publish upto 3 articles per month.<br>
-                    One free reading every three months.</p>
-                </div>
-                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #82e6e8;">
-                    <h3>Blogger Pro</h3>
-                    <h5>Rs. 100 per month</h5>
-                    <p>Publish upto 10 articles per month.<br>
-                    One free reading every month.</p>
-                </div>
-                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #30e3ca;">
-                    <h3>Blogger Ultra</h3>
-                    <h5>Rs. 300 per month</h5>
-                    <p>Publish upto 20 articles per month.<br>
-                    Three free readings every month. <br>
-                    <strong>Ad-free experience.</strong></p>
-                </div>
-                <div class = "col-lg-3 col-md-6 col-sm-12" style = "background-color: #20a6bc;">
-                    <h3>Blogger Ultra Max</h3>
-                    <h5>Rs. 600 per month</h5>
-                    <p>Publish upto 35 articles per month.<br>
-                    Five free readings every month. <br>
-                    <strong>Ad-free experience.</strong> <br>
-                    <strong>Exclusive perks to customise the website.</strong></p>
-                </div>
+                <button class = "carousel-control-prev" type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide = "prev">
+                    <span class = "carousel-control-prev-icon" aria-hidden = "true"></span>
+                    <span class = "visually-hidden">Previous</span>
+                </button>
+                <button class = "carousel-control-next" type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide = "next">
+                    <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+                    <span class = "visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     
@@ -181,6 +183,13 @@
         </div>
     
         <div id = "footer">
+            
+            <div class = "row">
+                <div class = "col-lg-12 col-md-12 col-sm-12">
+                    <h5 style = "margin: 0 0 2% 0;">Find us on</h5>
+                </div>
+            </div>
+          
             <div class = "row">
                 <div class = "col-lg-4 col-md-4 col-sm-12">
                     <a href = "https://www.facebook.com/advaitmarathe2112/"><img src = "images/facebook_icon.png" alt = "Facebook" class = "social-icon"></a>
