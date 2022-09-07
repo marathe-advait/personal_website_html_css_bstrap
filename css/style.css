@@ -117,7 +117,7 @@ h3
     padding: 1%;
 }
 
-@media (max-width: 600px)
+@media (max-width: 450px)
 {
     .btn.btn-dark.home-button
     {
