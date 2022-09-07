@@ -25,13 +25,6 @@ html, body
     background-color: #e4f9f5;
 }
 
-img
-{
-    height: 100%; 
-    width: 75%; 
-    padding: 5%;
-}
-
 .btn
 {
     padding: 2%;
