@@ -80,7 +80,7 @@ h3
 {
     height: 100%;
     width: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 #pricing
@@ -117,7 +117,7 @@ h3
     padding: 1%;
 }
 
-@media (max-width: 450px)
+@media (max-width: 600px)
 {
     .btn.btn-dark.home-button
     {
