@@ -71,12 +71,16 @@ h3
     background-color: #82e6e8;
 }
 
+#carousel-featured
+{
+    height: 100%;
+}
+
 .featured-icon
 {
     height: 100%;
     width: 20%;
-    padding-bottom: 10%;
-    text-align: center;
+    margin-bottom: 10%;
 }
 
 #pricing
@@ -113,7 +117,7 @@ h3
     padding: 1%;
 }
 
-@media (max-width: 500px)
+@media (max-width: 400px)
 {
     .btn.btn-dark.home-button
     {
@@ -127,18 +131,19 @@ h3
 
     #featured
     {
-        height: 200px;
+        height: 100%;
     }
 
     #carousel-featured
     {
-        height: 150px;
+        height: 100%;
     }
 
     .featured-icon
     {
         height: 100%;
         width: 35%;
-        margin: auto;
+        margin-bottom: 30%;
+        margin-top: 10%;
     }
 }
