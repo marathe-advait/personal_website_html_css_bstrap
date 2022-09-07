@@ -25,6 +25,13 @@ html, body
     background-color: #e4f9f5;
 }
 
+img
+{
+    height: 100%; 
+    width: 75%; 
+    padding: 5%;
+}
+
 .btn
 {
     padding: 2%;
@@ -79,8 +86,8 @@ h3
 .featured-icon
 {
     height: 100%;
-    width: 20%;
-    margin-bottom: 15%;
+    width: 25%;
+    margin-bottom: 10%;
 }
 
 #pricing
@@ -98,10 +105,15 @@ h3
     background-color: #30e3ca;
 }
 
+form
+{
+    text-align: justify;
+}
+
 #footer
 {
     padding: 2.5% 0 2.5% 0;
-    height: 10%;
+    height: 20%;
     background-color: #e4f9f5;
 }
 
@@ -143,7 +155,7 @@ h3
     {
         height: 100%;
         width: 35%;
-        margin-bottom: 30%;
+        margin-bottom: 50%;
         margin-top: 10%;
     }
 }
